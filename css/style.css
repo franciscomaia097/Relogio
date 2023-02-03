@@ -126,3 +126,20 @@ main{
     background-color: brown;
     position: absolute;
 }
+
+@media only screen and (max-width: 767px) {
+    .clock {
+      min-width: 300px;
+      height: 300px;
+      border-radius: 150px;
+    }
+  
+    .second-hand, .minute-hand, .hour-hand {
+      height: 120px;
+    }
+  
+    .hour-hand {
+      width: 10px;
+      height: 100px;
+    }
+  }
